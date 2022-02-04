@@ -1,7 +1,8 @@
 import React from 'react';
-import { Box, Container, Stack, Button, Menu, MenuButton, IconButton, MenuList, MenuItem  } from '@chakra-ui/react';
+import { Box, Container, Stack, Button, Menu, MenuButton, IconButton, MenuList, MenuItem, useColorModeValue  } from '@chakra-ui/react';
 import { NavLink } from 'react-router-dom'
 import { HamburgerIcon } from '@chakra-ui/icons';
+import ThemeToggleButton from '../components/ThemeToggleButton';
 
 export const Navbar = () => {
 	return (
@@ -10,7 +11,8 @@ export const Navbar = () => {
 			as="nav"
 			w="100%"
 			zIndex={1}
-			css={{backdropFilter: "blur(10px" }}
+			bg={useColorModeValue('#EDF2F7', '#2D3748')}
+			css={{backdropFilter: "blur(10px)" }}
 		>
 			<Container
 				maxW="container.md"
@@ -41,7 +43,7 @@ export const Navbar = () => {
 				</Stack>
 
 				<Box pt={2} flex={1} align="right">
-					다크모드 토글 버튼
+					<ThemeToggleButton/>
 					<Box ml={2} display={{ base: "inline-block", md: "none" }}>
 						<Menu>
 							<MenuButton
