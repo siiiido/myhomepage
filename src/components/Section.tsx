@@ -1,6 +1,7 @@
 import React, { ReactChild, ReactChildren } from 'react';
 import { motion } from 'framer-motion';
 import { shouldForwardProp, chakra } from '@chakra-ui/react';
+import { SectionProps } from '../type';
 
 
 const StyleDiv = chakra(motion.div, {
@@ -9,10 +10,6 @@ const StyleDiv = chakra(motion.div, {
 	}
 });
 
-interface SectionProps {
-	children: ReactChild | ReactChildren;
-	delay: number;
-}
 
 const Section= ({ children, delay=0 }: SectionProps) => {
 	return (
