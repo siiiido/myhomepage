@@ -6,21 +6,22 @@ import { NavLink } from 'react-router-dom';
 import Section from '../components/Section';
 
 const Works = () => {
+	const handleScroll = () => window.scrollTo(0, 0);
+	
 	return (
 		<Layout>
 			<Box>
-				<Navbar/>
 				<Container>
 					<Heading pt={20}>Works</Heading>
 
-					<SimpleGrid column={{ sm: 1, md: 2}} spacing='10px'>
+					<SimpleGrid columns={{ sm: 1, md: 2}} spacing='10px'>
 
 						<Section>
-							<Box w='100%' textAlign='center'>
+							<Box w='100%' textAlign='center' onClick={handleScroll}>
 								<NavLink to='/works/newspring'>
 									<LinkBox cursor='pointer'>
 									<Image
-										src='/'
+										src='/images/test.jpg'
 										alt='새봄'
 										borderRadius='12px'
 										/>
@@ -38,11 +39,11 @@ const Works = () => {
 						</Section>
 
 						<Section>
-							<Box w='100%' textAlign='center'>
+							<Box w='100%' textAlign='center' onClick={handleScroll}>
 								<NavLink to='/works/artround'>
 									<LinkBox cursor='pointer'>
 									<Image
-										src='/'
+										src='/images/test.jpg'
 										alt='artround'
 										borderRadius='12px'
 										/>
@@ -60,11 +61,11 @@ const Works = () => {
 						</Section>
 
 						<Section delay={0.1}>
-							<Box w='100%' textAlign='center'>
+							<Box w='100%' textAlign='center' onClick={handleScroll}>
 								<NavLink to='/works/suyeonghackathon'>
 									<LinkBox cursor='pointer'>
 									<Image
-										src='/'
+										src='/images/test.jpg'
 										alt='수영구 해커톤'
 										borderRadius='12px'
 										/>
@@ -82,11 +83,11 @@ const Works = () => {
 						</Section>
 
 						<Section delay={0.2}>
-							<Box w='100%' textAlign='center'>
+							<Box w='100%' textAlign='center' onClick={handleScroll}>
 								<NavLink to='/works/portfolio'>
 									<LinkBox cursor='pointer'>
 									<Image
-										src='/'
+										src='/images/test.jpg'
 										alt='포트폴리오'
 										borderRadius='12px'
 										/>
@@ -104,11 +105,11 @@ const Works = () => {
 						</Section>
 
 						<Section delay={0.3}>
-							<Box w='100%' textAlign='center'>
+							<Box w='100%' textAlign='center' onClick={handleScroll}>
 								<NavLink to='/works/capstone'>
 									<LinkBox cursor='pointer'>
 									<Image
-										src='/'
+										src='/images/test.jpg'
 										alt='캡스톤디자인'
 										borderRadius='12px'
 										/>
