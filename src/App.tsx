@@ -7,10 +7,12 @@ import Capstone from './screens/works/Capstone';
 import NewSpring from './screens/works/NewSpring';
 import ArtRound from './screens/works/ArtRound';
 import Portfolio from './screens/works/Portfolio';
+import { Navbar } from './screens/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar/>
       <Switch>
         <Route exact path="/" component={Main}/>
       </Switch>
