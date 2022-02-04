@@ -8,6 +8,7 @@ import NewSpring from './screens/works/NewSpring';
 import ArtRound from './screens/works/ArtRound';
 import Portfolio from './screens/works/Portfolio';
 import { Navbar } from './screens/Navbar';
+import SimpleTodo from './screens/works/SimpleTodo';
 
 function App() {
   return (
@@ -32,8 +33,12 @@ function App() {
         <Route path="/works/portfolio" component={Portfolio}/>
       </Switch>
       <Switch>
+        <Route path="/works/simpletodo" component={SimpleTodo}/>
+      </Switch>
+      <Switch>
         <Route path="/works" component={Works}/>
       </Switch>
+
     </BrowserRouter>
   );
 }

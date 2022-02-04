@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import { Navbar } from './Navbar';
 import { NavLink } from 'react-router-dom';
 import Section from '../components/Section';
+import SimpleTodo from './works/SimpleTodo';
 
 const Works = () => {
 	const handleScroll = () => window.scrollTo(0, 0);
@@ -105,6 +106,28 @@ const Works = () => {
 						</Section>
 
 						<Section delay={0.3}>
+							<Box w='100%' textAlign='center' onClick={handleScroll}>
+								<NavLink to='/works/simpletodo'>
+									<LinkBox cursor='pointer'>
+									<Image
+										src='/images/test.jpg'
+										alt='SimpleTodo'
+										borderRadius='12px'
+										/>
+										<LinkOverlay href='/works/simpletodo'>
+											<Text mt={2} fontSize={20}>
+											SimpleTodo
+											</Text>
+										</LinkOverlay>
+										<Text fontSize={14} >
+											설명, 소개
+										</Text>
+									</LinkBox>
+								</NavLink>
+							</Box>
+						</Section>
+
+						<Section delay={0.4}>
 							<Box w='100%' textAlign='center' onClick={handleScroll}>
 								<NavLink to='/works/capstone'>
 									<LinkBox cursor='pointer'>
