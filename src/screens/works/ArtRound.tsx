@@ -8,7 +8,6 @@ import { Paragraph } from '../Main';
 const ArtRound = () => {
 	return (
 		<Layout>
-			<Navbar/>
 			<Container pt={20}>
 				<Title>
 					ArtRound <Badge>날짜</Badge>

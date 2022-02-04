@@ -8,7 +8,6 @@ import { Paragraph } from '../Main';
 const SuyeongHackathon = () => {
 	return (
 		<Layout>
-			<Navbar/>
 			<Container pt={20}>
 				<Title>
 					어서와수영구는처음이지 <Badge>날짜</Badge>

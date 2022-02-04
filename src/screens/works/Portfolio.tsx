@@ -8,7 +8,6 @@ import { Paragraph } from '../Main';
 const Portfolio = () => {
 	return (
 		<Layout>
-			<Navbar/>
 			<Container pt={20}>
 				<Title>
 					포토폴리오 <Badge>날짜</Badge>

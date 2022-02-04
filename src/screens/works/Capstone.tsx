@@ -8,7 +8,6 @@ import { Paragraph } from '../Main';
 const Capstone = () => {
 	return (
 		<Layout>
-			<Navbar/>
 			<Container pt={20}>
 				<Title>
 					캡스톤디자인 <Badge>날짜</Badge>

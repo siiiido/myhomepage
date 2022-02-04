@@ -2,14 +2,13 @@ import React from 'react';
 import { Box, Button, Container, Heading, Image, List, ListItem, Link } from '@chakra-ui/react';
 import { Navbar } from './Navbar';
 import { NavLink } from 'react-router-dom';
-import Section from '../components/Section';
 import styled from "@emotion/styled";
+import Section from '../components/Section';
 
 
 const Main = () => {
 	return (
 		<Box h="100vh">
-			<Navbar/>
 			<Container maxW="container.md" pt={14}>
 				<Box
 					borderRadius="lg"
@@ -104,7 +103,7 @@ const Main = () => {
 export default Main;
 
 
-const Paragraph = styled.p`
+export const Paragraph = styled.p`
 	text-align: justify;
 	text-indent: 1em;
 `;

@@ -8,7 +8,6 @@ import { Paragraph } from '../Main';
 const NewSpring = () => {
 	return (
 		<Layout>
-			<Navbar/>
 			<Container pt={20}>
 				<Title>
 					새봄 <Badge>날짜</Badge>
