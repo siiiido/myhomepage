@@ -12,17 +12,17 @@ import SimpleTodo from "./screens/works/SimpleTodo";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + "/"} component={Main} />
-        <Route path={process.env.PUBLIC_URL + "/works/newspring"} component={NewSpring} />
-        <Route path={process.env.PUBLIC_URL + "/works/capstone"} component={Capstone} />
-        <Route path={process.env.PUBLIC_URL + "/works/suyeonghackathon"} component={SuyeongHackathon} />
-        <Route path={process.env.PUBLIC_URL + "/works/artround"} component={ArtRound} />
-        <Route path={process.env.PUBLIC_URL + "/works/portfolio"} component={Portfolio} />
-        <Route path={process.env.PUBLIC_URL + "/works/simpletodo"} component={SimpleTodo} />
-        <Route path={process.env.PUBLIC_URL + "/works"} component={Works} />
+        <Route exact path="/" component={Main} />
+        <Route path="/works/newspring" component={NewSpring} />
+        <Route path="/works/capstone" component={Capstone} />
+        <Route path="/works/suyeonghackathon" component={SuyeongHackathon} />
+        <Route path="/works/artround" component={ArtRound} />
+        <Route path="/works/portfolio" component={Portfolio} />
+        <Route path="/works/simpletodo" component={SimpleTodo} />
+        <Route path="/works" component={Works} />
       </Switch>
     </BrowserRouter>
   );
