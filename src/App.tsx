@@ -1,44 +1,43 @@
-import React from 'react';
-import { Route, Switch, HashRouter, BrowserRouter } from 'react-router-dom'
-import Main from './screens/Main';
-import Works from './screens/Works';
-import SuyeongHackathon from './screens/works/SuyeongHackathon';
-import Capstone from './screens/works/Capstone';
-import NewSpring from './screens/works/NewSpring';
-import ArtRound from './screens/works/ArtRound';
-import Portfolio from './screens/works/Portfolio';
-import { Navbar } from './screens/Navbar';
-import SimpleTodo from './screens/works/SimpleTodo';
+import React from "react";
+import { Route, Switch, HashRouter, BrowserRouter } from "react-router-dom";
+import Main from "./screens/Main";
+import Works from "./screens/Works";
+import SuyeongHackathon from "./screens/works/SuyeongHackathon";
+import Capstone from "./screens/works/Capstone";
+import NewSpring from "./screens/works/NewSpring";
+import ArtRound from "./screens/works/ArtRound";
+import Portfolio from "./screens/works/Portfolio";
+import { Navbar } from "./screens/Navbar";
+import SimpleTodo from "./screens/works/SimpleTodo";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Switch>
-        <Route exact path="/" component={Main}/>
+        <Route exact path="/" component={Main} />
       </Switch>
       <Switch>
-        <Route path="/works/newspring" component={NewSpring}/>
+        <Route path="/works/newspring" component={NewSpring} />
       </Switch>
       <Switch>
-        <Route path="/works/capstone" component={Capstone}/>
+        <Route path="/works/capstone" component={Capstone} />
       </Switch>
       <Switch>
-        <Route path="/works/suyeonghackathon" component={SuyeongHackathon}/>
+        <Route path="/works/suyeonghackathon" component={SuyeongHackathon} />
       </Switch>
       <Switch>
-        <Route path="/works/artround" component={ArtRound}/>
+        <Route path="/works/artround" component={ArtRound} />
       </Switch>
       <Switch>
-        <Route path="/works/portfolio" component={Portfolio}/>
+        <Route path="/works/portfolio" component={Portfolio} />
       </Switch>
       <Switch>
-        <Route path="/works/simpletodo" component={SimpleTodo}/>
+        <Route path="/works/simpletodo" component={SimpleTodo} />
       </Switch>
       <Switch>
-        <Route path="/works" component={Works}/>
+        <Route path="/works" component={Works} />
       </Switch>
-
     </BrowserRouter>
   );
 }

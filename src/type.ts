@@ -1,9 +1,9 @@
-import { ReactChild, ReactChildren } from 'react';
+import { ReactChild, ReactChildren } from "react";
 
 export interface ChildrenProps {
-	children: (ReactChild | ReactChildren) | (ReactChild | ReactChildren)[] ;
+  children: (ReactChild | ReactChildren) | (ReactChild | ReactChildren)[];
 }
 
 export interface SectionProps extends ChildrenProps {
-	delay?: number
+  delay?: number;
 }
