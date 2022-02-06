@@ -7,3 +7,12 @@ export interface ChildrenProps {
 export interface SectionProps extends ChildrenProps {
   delay?: number;
 }
+
+export interface Info { 
+  title: string,
+  year: number,
+  info: string[],
+  content: string,
+  implements: string[],
+  imgSrc: string[]
+}

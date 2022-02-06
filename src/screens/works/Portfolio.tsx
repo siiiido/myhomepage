@@ -1,7 +1,8 @@
 import WorksInfo from "../../components/WorksInfo";
+import { Info } from "../../type";
 
 const Portfolio = () => {
-  const info = {
+  const info: Info = {
     title: "테스트",
     year: 2020,
     info: ["Vanila Javascript, Django, Python"],
