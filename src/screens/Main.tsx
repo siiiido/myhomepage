@@ -41,7 +41,7 @@ const Main = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/profile.jpg"
+              src="./images/profile.jpg"
               alt="Profile image"
             />
           </Box>

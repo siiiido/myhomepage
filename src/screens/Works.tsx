@@ -29,7 +29,7 @@ const Works = () => {
                 <NavLink to="/works/newspring">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="/images/test.jpg"
+                      src="./images/test.jpg"
                       alt="새봄"
                       borderRadius="12px"
                     />
