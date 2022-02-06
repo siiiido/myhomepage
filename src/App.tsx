@@ -12,7 +12,7 @@ import SimpleTodo from "./screens/works/SimpleTodo";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Main} />
@@ -38,7 +38,7 @@ function App() {
       <Switch>
         <Route path="/works" component={Works} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
