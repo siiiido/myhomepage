@@ -49,7 +49,7 @@ const Works = () => {
                 <NavLink to="/works/artround">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="/images/test.jpg"
+                      src="./images/test.jpg"
                       alt="artround"
                       borderRadius="12px"
                     />
@@ -69,7 +69,7 @@ const Works = () => {
                 <NavLink to="/works/suyeonghackathon">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="/images/test.jpg"
+                      src="./images/test.jpg"
                       alt="수영구 해커톤"
                       borderRadius="12px"
                     />
@@ -89,7 +89,7 @@ const Works = () => {
                 <NavLink to="/works/portfolio">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="/images/test.jpg"
+                      src="./images/test.jpg"
                       alt="포트폴리오"
                       borderRadius="12px"
                     />
@@ -109,7 +109,7 @@ const Works = () => {
                 <NavLink to="/works/simpletodo">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="/images/test.jpg"
+                      src="./images/test.jpg"
                       alt="SimpleTodo"
                       borderRadius="12px"
                     />
@@ -129,7 +129,7 @@ const Works = () => {
                 <NavLink to="/works/capstone">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="/images/test.jpg"
+                      src="./images/test.jpg"
                       alt="캡스톤디자인"
                       borderRadius="12px"
                     />
