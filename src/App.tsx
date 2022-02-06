@@ -14,16 +14,14 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Main} />
-        <Route path="/works/newspring" component={NewSpring} />
-        <Route path="/works/capstone" component={Capstone} />
-        <Route path="/works/suyeonghackathon" component={SuyeongHackathon} />
-        <Route path="/works/artround" component={ArtRound} />
-        <Route path="/works/portfolio" component={Portfolio} />
-        <Route path="/works/simpletodo" component={SimpleTodo} />
-        <Route path="/works" component={Works} />
-      </Switch>
+      <Route exact path="/" component={Main} />
+      <Route path="/works/newspring" component={NewSpring} />
+      <Route path="/works/capstone" component={Capstone} />
+      <Route path="/works/suyeonghackathon" component={SuyeongHackathon} />
+      <Route path="/works/artround" component={ArtRound} />
+      <Route path="/works/portfolio" component={Portfolio} />
+      <Route path="/works/simpletodo" component={SimpleTodo} />
+      <Route path="/works" component={Works} />
     </BrowserRouter>
   );
 }
