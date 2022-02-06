@@ -57,7 +57,7 @@ const WorksInfo = ({ ...children }) => {
           {children.imgSrc.map((item: string, index: number) => {
             return (
               <SwiperSlide key={index}>
-                <Image src={item} />
+                <Image src={item} alt="images" />
               </SwiperSlide>
             );
           })}
