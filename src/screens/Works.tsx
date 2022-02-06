@@ -13,7 +13,7 @@ const Works = () => {
 		<Layout>
 			<Box>
 				<Container>
-					<Heading pt={20}>Works</Heading>
+					<Heading pt={20} pb={3}>Works</Heading>
 
 					<SimpleGrid columns={{ sm: 1, md: 2}} spacing='10px'>
 

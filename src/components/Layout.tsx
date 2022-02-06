@@ -12,15 +12,15 @@ const Layout = ({ children }: ChildrenProps) => {
 	return (
 		<motion.article
 			variants={variants}
-			initial="hidden"
-			animate="enter"
-			exit="exit"
+			initial='hidden'
+			animate='enter'
+			exit='exit'
 			transition={{ duration: 0.4, type: 'easeInOut' }}
 			style={{ position: 'relative' }}
 		>
 			{children}
 		</motion.article>
-	)
+	);
 };
 
 export default Layout;

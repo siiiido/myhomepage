@@ -10,7 +10,7 @@ export const Navbar = () => {
 			position="fixed"
 			as="nav"
 			w="100%"
-			zIndex={1}
+			zIndex={3}
 			bg={useColorModeValue('#EDF2F7', '#2D3748')}
 			css={{backdropFilter: "blur(10px)" }}
 		>
@@ -42,7 +42,7 @@ export const Navbar = () => {
 					</NavLink>
 				</Stack>
 
-				<Box pt={2} flex={1} align="right">
+				<Box pt={1} flex={1} align="right">
 					<ThemeToggleButton/>
 					<Box ml={2} display={{ base: "inline-block", md: "none" }}>
 						<Menu>
