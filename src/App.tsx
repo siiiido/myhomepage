@@ -12,33 +12,19 @@ import SimpleTodo from "./screens/works/SimpleTodo";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={Main} />
+        <Route path={process.env.PUBLIC_URL + "/works/newspring"} component={NewSpring} />
+        <Route path={process.env.PUBLIC_URL + "/works/capstone"} component={Capstone} />
+        <Route path={process.env.PUBLIC_URL + "/works/suyeonghackathon"} component={SuyeongHackathon} />
+        <Route path={process.env.PUBLIC_URL + "/works/artround"} component={ArtRound} />
+        <Route path={process.env.PUBLIC_URL + "/works/portfolio"} component={Portfolio} />
+        <Route path={process.env.PUBLIC_URL + "/works/simpletodo"} component={SimpleTodo} />
+        <Route path={process.env.PUBLIC_URL + "/works"} component={Works} />
       </Switch>
-      <Switch>
-        <Route path="/works/newspring" component={NewSpring} />
-      </Switch>
-      <Switch>
-        <Route path="/works/capstone" component={Capstone} />
-      </Switch>
-      <Switch>
-        <Route path="/works/suyeonghackathon" component={SuyeongHackathon} />
-      </Switch>
-      <Switch>
-        <Route path="/works/artround" component={ArtRound} />
-      </Switch>
-      <Switch>
-        <Route path="/works/portfolio" component={Portfolio} />
-      </Switch>
-      <Switch>
-        <Route path="/works/simpletodo" component={SimpleTodo} />
-      </Switch>
-      <Switch>
-        <Route path="/works" component={Works} />
-      </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
