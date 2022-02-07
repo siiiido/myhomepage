@@ -59,7 +59,7 @@ const Main = () => {
             취미 등등 적기.
           </Paragraph>
 
-          <Box align="center" my={4}>
+          <Box textAlign="center" my={4}>
             <NavLink to="/works">
               <Button colorScheme="blue">My portfolio </Button>
             </NavLink>
@@ -99,7 +99,7 @@ const Main = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link to="#">
+              <Link>
                 <Button
                   variant="ghost"
                   leftIcon={<Icon as={SiGmail} />}

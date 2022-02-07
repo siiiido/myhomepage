@@ -29,7 +29,8 @@ export const Navbar = () => {
         display="flex"
         justifyContent="space-between"
         alignContent="center"
-        wrap="wrap"
+        /* wrap="wrap" */
+        flexWrap="wrap" 
         p={2}
       >
         <Stack
@@ -48,7 +49,7 @@ export const Navbar = () => {
           </NavLink>
         </Stack>
 
-        <Box pt={1} flex={1} align="right">
+        <Box pt={1} flex={1} textAlign="right">
           <ThemeToggleButton />
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
             <Menu>
