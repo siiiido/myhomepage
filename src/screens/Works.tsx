@@ -12,6 +12,7 @@ import Layout from "../components/Layout";
 import { NavLink } from "react-router-dom";
 import Section from "../components/Section";
 import worksTestImg from "../img/test.jpg";
+import newSpringMainImg from "../img/newSpring/thumnail.png"
 
 const Works = () => {
   const handleScroll = () => window.scrollTo(0, 0);
@@ -29,13 +30,13 @@ const Works = () => {
               <Box w="100%" textAlign="center" onClick={handleScroll}>
                 <NavLink to="/works/newspring">
                   <LinkBox cursor="pointer">
-                    <Image src={worksTestImg} alt="새봄" borderRadius="12px" />
+                    <Image src={newSpringMainImg} alt="새봄" borderRadius="12px" />
                     <LinkOverlay href="/works/newspring">
                       <Text mt={2} fontSize={20}>
                         새봄
                       </Text>
                     </LinkOverlay>
-                    <Text fontSize={14}>설명, 소개</Text>
+                    <Text fontSize={14}>랜덤 선호도 질문으로 가장 어울리는 이성을 매칭해줍니다.</Text>
                   </LinkBox>
                 </NavLink>
               </Box>

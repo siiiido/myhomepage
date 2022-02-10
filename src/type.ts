@@ -11,8 +11,9 @@ export interface SectionProps extends ChildrenProps {
 export interface Info { 
   title: string,
   year: number,
+  website?: string,
   info: string[],
-  content: string,
+  content: string[],
   implements: string[],
   imgSrc: string[]
 }
