@@ -10,27 +10,42 @@ import {
 import Layout from "./Layout";
 import { Paragraph } from "../screens/Main";
 import Title from "./Title";
-import { FcCheckmark } from "react-icons/fc";
+import { FcCheckmark, FcFlashOn } from "react-icons/fc";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
+import { Link } from "react-router-dom";
 
 const WorksInfo = ({ ...children }) => {
-  const infoTile = ["stack"];
+  const infoTile = ["website", "stack"];
   return (
     <Layout>
       <Container pt={20}>
         <Title>
           {children.title} <Badge>{children.year}</Badge>
         </Title>
-        <Paragraph>{children.content}</Paragraph>
+        <Heading as="h4" mb={3}>
+          프로젝트 소개
+        </Heading>
+        {children.content.map((item: string, index: number) => {
+          return (
+            <Box display="flex" mt={3} key={index}>
+              <FcFlashOn style={{ minWidth: "1rem", marginTop: "5px" }} />
+              <span style={{ marginLeft: "7px" }}>{item}</span>
+            </Box>
+          );
+        })}
         <List mt={5}>
           {infoTile.map((item, index) => {
             return (
               <ListItem key={index}>
                 <Badge mr={3}>{item}</Badge>
-                <span>{children.info[index]}</span>
+                {item === "website" && children.info[index] !== "x" ? (
+                  <Link to={children.info[index]}>{children.info[index]}</Link>
+                ) : (
+                  <span>{children.info[index]}</span>
+                )}
               </ListItem>
             );
           })}
@@ -57,7 +72,15 @@ const WorksInfo = ({ ...children }) => {
           {children.imgSrc.map((item: string, index: number) => {
             return (
               <SwiperSlide key={index}>
-                <Image src={item} alt="images" />
+                <Image
+                  src={item}
+                  alt="images"
+                  style={{
+                    maxHeight: "500px",
+                    width: "100%",
+                    borderRadius: "20px",
+                  }}
+                />
               </SwiperSlide>
             );
           })}
