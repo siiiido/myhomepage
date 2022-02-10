@@ -1,15 +1,30 @@
 {
   "files": {
-    "main.css": "/myhomepage/static/css/main.824c2a78.css",
-    "main.js": "/myhomepage/static/js/main.90bc6817.js",
+    "main.css": "/myhomepage/static/css/main.08f0a875.css",
+    "main.js": "/myhomepage/static/js/main.ee8d18b0.js",
     "static/media/profile.jpg": "/myhomepage/static/media/profile.5539765081e2cd16d13a.jpg",
     "static/media/test.jpg": "/myhomepage/static/media/test.8fb4a49b44418330a90d.jpg",
+    "static/media/open-sans-all-700-normal.woff": "/myhomepage/static/media/open-sans-all-700-normal.3499b9716301bd3c513c.woff",
+    "static/media/raleway-all-400-normal.woff": "/myhomepage/static/media/raleway-all-400-normal.8745d609142c140d7bdc.woff",
+    "static/media/raleway-latin-400-normal.woff2": "/myhomepage/static/media/raleway-latin-400-normal.d0033942a11996c40380.woff2",
+    "static/media/open-sans-cyrillic-ext-700-normal.woff2": "/myhomepage/static/media/open-sans-cyrillic-ext-700-normal.3c59ade8b77934a45b30.woff2",
+    "static/media/open-sans-latin-700-normal.woff2": "/myhomepage/static/media/open-sans-latin-700-normal.166dc5efb248e5752096.woff2",
+    "static/media/raleway-latin-ext-400-normal.woff2": "/myhomepage/static/media/raleway-latin-ext-400-normal.0d87da54ef6ba3feba64.woff2",
+    "static/media/open-sans-latin-ext-700-normal.woff2": "/myhomepage/static/media/open-sans-latin-ext-700-normal.45e8e1ac313ddc44a973.woff2",
+    "static/media/raleway-cyrillic-ext-400-normal.woff2": "/myhomepage/static/media/raleway-cyrillic-ext-400-normal.fb4e05231f89be643737.woff2",
+    "static/media/raleway-cyrillic-400-normal.woff2": "/myhomepage/static/media/raleway-cyrillic-400-normal.cb4f2846a9e6286936a1.woff2",
+    "static/media/open-sans-cyrillic-700-normal.woff2": "/myhomepage/static/media/open-sans-cyrillic-700-normal.1c275ed85d097d423a5a.woff2",
+    "static/media/open-sans-greek-700-normal.woff2": "/myhomepage/static/media/open-sans-greek-700-normal.8fe2fcd1cc0060a5abe8.woff2",
+    "static/media/open-sans-hebrew-700-normal.woff2": "/myhomepage/static/media/open-sans-hebrew-700-normal.87a0af0cdd297129379f.woff2",
+    "static/media/open-sans-vietnamese-700-normal.woff2": "/myhomepage/static/media/open-sans-vietnamese-700-normal.f7029b9ddd8d28129255.woff2",
+    "static/media/raleway-vietnamese-400-normal.woff2": "/myhomepage/static/media/raleway-vietnamese-400-normal.8efa7e0a2615cd431d28.woff2",
+    "static/media/open-sans-greek-ext-700-normal.woff2": "/myhomepage/static/media/open-sans-greek-ext-700-normal.6ec764fe61947b88ec49.woff2",
     "index.html": "/myhomepage/index.html",
-    "main.824c2a78.css.map": "/myhomepage/static/css/main.824c2a78.css.map",
-    "main.90bc6817.js.map": "/myhomepage/static/js/main.90bc6817.js.map"
+    "main.08f0a875.css.map": "/myhomepage/static/css/main.08f0a875.css.map",
+    "main.ee8d18b0.js.map": "/myhomepage/static/js/main.ee8d18b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.824c2a78.css",
-    "static/js/main.90bc6817.js"
+    "static/css/main.08f0a875.css",
+    "static/js/main.ee8d18b0.js"
   ]
 }
