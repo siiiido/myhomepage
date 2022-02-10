@@ -1,6 +1,8 @@
 import WorksInfo from "../../components/WorksInfo";
 import { Info } from "../../type";
-
+import test1 from "../../img/test.jpg";
+import test2 from "../../img/test.jpg";
+import test3 from "../../img/test.jpg";
 
 const SimpleTodo = () => {
   const info: Info = {
@@ -15,7 +17,7 @@ const SimpleTodo = () => {
       "사용자 주변의 전시회, 박물관이 지도에 나타납니다. (GPS 동의 필요)",
       "전시회 혹은 박물관을 클릭하여 즐겨찾기에 등록, 공유 등이 가능합니다",
     ],
-    imgSrc: ["./images/test.jpg", "./images/test.jpg", "./images/test.jpg"],
+    imgSrc: [test1, test2, test3],
   };
 
   return (

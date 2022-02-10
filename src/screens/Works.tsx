@@ -11,6 +11,7 @@ import {
 import Layout from "../components/Layout";
 import { NavLink } from "react-router-dom";
 import Section from "../components/Section";
+import worksTestImg from "../img/test.jpg";
 
 const Works = () => {
   const handleScroll = () => window.scrollTo(0, 0);
@@ -28,11 +29,7 @@ const Works = () => {
               <Box w="100%" textAlign="center" onClick={handleScroll}>
                 <NavLink to="/works/newspring">
                   <LinkBox cursor="pointer">
-                    <Image
-                      src="./images/test.jpg"
-                      alt="새봄"
-                      borderRadius="12px"
-                    />
+                    <Image src={worksTestImg} alt="새봄" borderRadius="12px" />
                     <LinkOverlay href="/works/newspring">
                       <Text mt={2} fontSize={20}>
                         새봄
@@ -49,7 +46,7 @@ const Works = () => {
                 <NavLink to="/works/artround">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="./images/test.jpg"
+                      src={worksTestImg}
                       alt="artround"
                       borderRadius="12px"
                     />
@@ -69,7 +66,7 @@ const Works = () => {
                 <NavLink to="/works/suyeonghackathon">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="./images/test.jpg"
+                      src={worksTestImg}
                       alt="수영구 해커톤"
                       borderRadius="12px"
                     />
@@ -89,7 +86,7 @@ const Works = () => {
                 <NavLink to="/works/portfolio">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="./images/test.jpg"
+                      src={worksTestImg}
                       alt="포트폴리오"
                       borderRadius="12px"
                     />
@@ -109,7 +106,7 @@ const Works = () => {
                 <NavLink to="/works/simpletodo">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="./images/test.jpg"
+                      src={worksTestImg}
                       alt="SimpleTodo"
                       borderRadius="12px"
                     />
@@ -129,7 +126,7 @@ const Works = () => {
                 <NavLink to="/works/capstone">
                   <LinkBox cursor="pointer">
                     <Image
-                      src="./images/test.jpg"
+                      src={worksTestImg}
                       alt="캡스톤디자인"
                       borderRadius="12px"
                     />

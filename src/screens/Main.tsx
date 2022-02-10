@@ -15,6 +15,7 @@ import styled from "@emotion/styled";
 import Section from "../components/Section";
 import { IoLogoGithub } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
+import profileImg from "../img/profile.jpg";
 
 const Main = () => {
   return (
@@ -41,7 +42,7 @@ const Main = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="./images/profile.jpg"
+              src={profileImg}
               alt="Profile image"
             />
           </Box>
