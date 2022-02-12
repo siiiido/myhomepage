@@ -16,6 +16,19 @@ import Section from "../components/Section";
 import { IoLogoGithub } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
 import profileImg from "../img/profile.jpg";
+import { FcAbout } from "react-icons/fc";
+import { FaHandPointRight } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiHtml5,
+  SiCss3,
+  SiRedux,
+  SiGit,
+  SiStyledcomponents,
+  SiInstagram,
+} from "react-icons/si";
 
 const Main = () => {
   return (
@@ -50,17 +63,65 @@ const Main = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" mt={5} mb={2}>
-            소개
+            Skills
           </Heading>
-          <Paragraph>
-            한글입술으로 테스트.넣는 뭇 가슴에 것이다. 사는가 우리는 살 풀이
-            찾아 듣는다. 같이, 청춘은 넣는 속잎나고, 따뜻한 봄바람을 충분히
-            모래뿐일 것이다. 불어 인생에 보이는 간에 희망의 인류의 것이다.
-            열락의 착목한는 어디 맺어, 하였으며, 황금시대다. 기술스택, 영어,
-            취미 등등 적기.
-          </Paragraph>
+          <SkillBox>
+            <Box display="flex">
+              <SkillEmoji>
+                <SiJavascript />
+              </SkillEmoji>{" "}
+              Javascript
+            </Box>
+            <Box display="flex">
+              <SkillEmoji>
+                <SiTypescript />
+              </SkillEmoji>{" "}
+              Typescript
+            </Box>
+            <Box display="flex">
+              <SkillEmoji>
+                <SiReact />
+              </SkillEmoji>{" "}
+              React
+            </Box>
+            <Box display="flex">
+              <SkillEmoji>
+                <SiRedux />
+              </SkillEmoji>{" "}
+              Redux
+            </Box>
+          </SkillBox>
 
-          <Box textAlign="center" my={4}>
+          <SkillBox>
+            <Box display="flex">
+              <SkillEmoji>
+                <SiHtml5 />
+              </SkillEmoji>{" "}
+              HTML
+            </Box>
+            <Box display="flex">
+              <SkillEmoji>
+                <SiCss3 />
+              </SkillEmoji>{" "}
+              Css
+            </Box>
+
+            <Box display="flex">
+              <SkillEmoji>
+                <SiStyledcomponents />
+              </SkillEmoji>{" "}
+              Styled Component
+            </Box>
+
+            <Box display="flex">
+              <SkillEmoji>
+                <SiGit />
+              </SkillEmoji>{" "}
+              Git
+            </Box>
+          </SkillBox>
+
+          <Box textAlign="center" my={7}>
             <NavLink to="/works">
               <Button colorScheme="blue">My portfolio </Button>
             </NavLink>
@@ -69,32 +130,60 @@ const Main = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" pb={2}>
-            경력
+            About me
           </Heading>
-          <Box pl="3.4rem">
-            <Year>2016</Year> 부경대학교 IT융합응용공학과 입학
-          </Box>
-          <Box pl="3.4rem">
-            <Year>2021</Year> 캡디
-          </Box>
-          <Box pl="3.4rem">
-            <Year>2021</Year> 수영구 해커톤
-          </Box>
-          <Box pl="3.4rem">
-            <Year>2021</Year> 정보처리기사
-          </Box>
+          <AboutBox>
+            <AboutEmoji>
+              <FcAbout />
+            </AboutEmoji>{" "}
+            부경대학교 IT융합응용공학과
+          </AboutBox>
+          <AboutBox>
+            <AboutEmoji>
+              <FcAbout />
+            </AboutEmoji>{" "}
+            부경대학교 캡스톤디자인 금상
+          </AboutBox>
+          <AboutBox>
+            <AboutEmoji>
+              <FcAbout />
+            </AboutEmoji>{" "}
+            수영구 문화 해커튼 2등
+          </AboutBox>
+          <AboutBox>
+            <AboutEmoji>
+              <FcAbout />
+            </AboutEmoji>{" "}
+            정보처리기사
+          </AboutBox>
+          <AboutBox>
+            <AboutEmoji>
+              <FcAbout />
+            </AboutEmoji>{" "}
+            Language : Korean(Native), English(Intermediate)
+          </AboutBox>
+          <AboutBox>
+            <AboutEmoji>
+              <FcAbout />
+            </AboutEmoji>{" "}
+            I 💙 Photography and Crossfit
+            <Box display="flex" pl={2} pt={0.3} fontSize="x-large">
+              <FaHandPointRight />{" "}
+              <a href="https://www.instagram.com/wehatecucumber/">
+                <SiInstagram style={{ marginLeft: "0.5rem" }} />
+              </a>
+            </Box>
+          </AboutBox>
         </Section>
 
         <Section delay={0.3}>
-          <Heading as="h3">Contact</Heading>
+          <Heading mt={7} as="h3">
+            Github & Contact
+          </Heading>
           <List>
             <ListItem>
               <Link href="https://github.com/siiiido">
-                <Button
-                  variant="ghost"
-                  leftIcon={<Icon as={IoLogoGithub} />}
-                  ml={9}
-                >
+                <Button variant="ghost" leftIcon={<Icon as={IoLogoGithub} />}>
                   Github
                 </Button>
               </Link>
@@ -104,7 +193,6 @@ const Main = () => {
                 <Button
                   variant="ghost"
                   leftIcon={<Icon as={SiGmail} />}
-                  ml={9}
                   onClick={() =>
                     (window.location.href = "mailto:discegaudere24.7@gmail.com")
                   }
@@ -127,7 +215,29 @@ export const Paragraph = styled.p`
   text-indent: 1em;
 `;
 
-const Year = styled.span`
+const AboutEmoji = styled.span`
+  display: inline-block;
   font-weight: bold;
-  margin-right: 1em;
+  font-size: x-large;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+`;
+
+const AboutBox = styled(Box)`
+  display: flex;
+  margin-top: 0.3rem;
+`;
+
+const SkillBox = styled(Box)`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+`;
+
+const SkillEmoji = styled.span`
+  display: inline-block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
 `;
