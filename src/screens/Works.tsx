@@ -96,7 +96,7 @@ const Works = () => {
                         포트폴리오
                       </Text>
                     </LinkOverlay>
-                    <Text fontSize={14}>설명, 소개</Text>
+                    <Text fontSize={14}>포트폴리오 웹사이트입니다.</Text>
                   </LinkBox>
                 </NavLink>
               </Box>
