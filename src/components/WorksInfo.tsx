@@ -8,14 +8,13 @@ import {
   Image,
 } from "@chakra-ui/react";
 import Layout from "./Layout";
-import { Paragraph } from "../screens/Main";
 import Title from "./Title";
 import { FcCheckmark, FcFlashOn } from "react-icons/fc";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Link } from "react-router-dom";
+import { Link } from "@chakra-ui/react";
 
 const WorksInfo = ({ ...children }) => {
   const infoTile = ["website", "stack"];
@@ -38,11 +37,14 @@ const WorksInfo = ({ ...children }) => {
         })}
         <List mt={5}>
           {infoTile.map((item, index) => {
+            console.log("here", children.info[index]);
             return (
               <ListItem key={index}>
                 <Badge mr={3}>{item}</Badge>
                 {item === "website" && children.info[index] !== "x" ? (
-                  <Link to={children.info[index]}>{children.info[index]}</Link>
+                  <Link href={children.info[index]}>
+                    {children.info[index]}
+                  </Link>
                 ) : (
                   <span>{children.info[index]}</span>
                 )}
