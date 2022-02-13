@@ -78,7 +78,7 @@ const WorksInfo = ({ ...children }) => {
                   src={item}
                   alt="images"
                   style={{
-                    maxHeight: "500px",
+                    height: "500px",
                     width: "100%",
                     borderRadius: "20px",
                   }}
