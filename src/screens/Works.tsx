@@ -12,7 +12,8 @@ import Layout from "../components/Layout";
 import { NavLink } from "react-router-dom";
 import Section from "../components/Section";
 import worksTestImg from "../img/test.jpg";
-import newSpringMainImg from "../img/newSpring/thumnail.png"
+import thumnailNewSpring from "../img/newSpring/thumnail.jpg";
+import todo from "../img/simpleTodo/todo.jpg";
 
 const Works = () => {
   const handleScroll = () => window.scrollTo(0, 0);
@@ -30,13 +31,19 @@ const Works = () => {
               <Box w="100%" textAlign="center" onClick={handleScroll}>
                 <NavLink to="/works/newspring">
                   <LinkBox cursor="pointer">
-                    <Image src={newSpringMainImg} alt="새봄" borderRadius="12px" />
+                    <Image
+                      src={thumnailNewSpring}
+                      alt="새봄"
+                      borderRadius="12px"
+                    />
                     <LinkOverlay href="/works/newspring">
                       <Text mt={2} fontSize={20}>
                         새봄
                       </Text>
                     </LinkOverlay>
-                    <Text fontSize={14}>랜덤 선호도 질문으로 가장 어울리는 이성을 매칭해줍니다.</Text>
+                    <Text fontSize={14}>
+                      랜덤 선호도 질문으로 가장 어울리는 이성을 매칭해줍니다.
+                    </Text>
                   </LinkBox>
                 </NavLink>
               </Box>
@@ -106,17 +113,13 @@ const Works = () => {
               <Box w="100%" textAlign="center" onClick={handleScroll}>
                 <NavLink to="/works/simpletodo">
                   <LinkBox cursor="pointer">
-                    <Image
-                      src={worksTestImg}
-                      alt="SimpleTodo"
-                      borderRadius="12px"
-                    />
+                    <Image src={todo} alt="SimpleTodo" borderRadius="12px" />
                     <LinkOverlay href="/works/simpletodo">
                       <Text mt={2} fontSize={20}>
                         SimpleTodo
                       </Text>
                     </LinkOverlay>
-                    <Text fontSize={14}>설명, 소개</Text>
+                    <Text fontSize={14}>Todo 웹 어플리케이션입니다.</Text>
                   </LinkBox>
                 </NavLink>
               </Box>
