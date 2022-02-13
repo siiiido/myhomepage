@@ -136,25 +136,21 @@ const Main = () => {
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
-            부경대학교 IT융합응용공학과
+            학력 : 부경대학교 IT융합응용공학과
           </AboutBox>
           <AboutBox>
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
-            부경대학교 캡스톤디자인 금상
+            수상 : 부경대학교 S/W대회 금상(1위), 문화예술 스마트 해커톤
+            특별상(2위)
           </AboutBox>
+
           <AboutBox>
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
-            수영구 문화 해커튼 2등
-          </AboutBox>
-          <AboutBox>
-            <AboutEmoji>
-              <FcAbout />
-            </AboutEmoji>{" "}
-            정보처리기사
+            자격증 : 정보처리기사
           </AboutBox>
           <AboutBox>
             <AboutEmoji>

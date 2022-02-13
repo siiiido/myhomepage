@@ -1,25 +1,22 @@
 import WorksInfo from "../../components/WorksInfo";
 import { Info } from "../../type";
-import test1 from "../../img/test.jpg";
-import test2 from "../../img/test.jpg";
-import test3 from "../../img/test.jpg";
-
+import main from "../../img/suyeong/main.jpg";
+import whole from "../../img/suyeong/suyeong.jpg";
+import win from "../../img/suyeong/win.jpg";
 
 const SuyeongHackathon = () => {
   const info: Info = {
-    title: "테스트",
-    year: 2020,
-    info: ["Vanila Javascript, Django, Python"],
-    content:[
-      "물방아 공자는 그들은 철환하였는가? 이상의 피고 작고 무한한 위하여서, 아름답고 용기가 때에, 것이다." ,
-      "보배를 앞이 예가 생의 옷을 천하를 사라지지 황금시대다. 역사를 생명을 원대하고, 열락의 못할 군영과 같지 인간이 약동하다. 것은 든 구할 구하지 얼음에 소금이라 것이다. 청춘을 이상이 방황하였으며, 두손을 교향악이다. 두기 끝까지 것은 광야에서 그들의 넣는 주며, 꽃이 무엇을 봄바람이다.",
-    ],
+    title: "어서와 수영구는 처음이지",
+    year: 2021,
+    info: ["", "React.JS, React-Swiper, Styled-Components"],
+    content: ["실시간 날씨를 기반으로 수영구의 관광지를 추천해줍니다."],
     implements: [
-      "카카오 소셜 로그인으로 회원가입, 로그인을 진행합니다.",
-      "사용자 주변의 전시회, 박물관이 지도에 나타납니다. (GPS 동의 필요)",
-      "전시회 혹은 박물관을 클릭하여 즐겨찾기에 등록, 공유 등이 가능합니다",
+      "공공 데이터 API들을 모아서 관광지 정보를 제공합니다.",
+      "자신이 원하는 주제의 관광지를 볼 수 있습니다.",
+      "관광지를 정하면 위치와 주소 등 정보를 볼 수 있습니다.",
+      "OpenWeather의 Weather API를 사용하여 실시간 수영구 날씨를 볼 수 있습니다.",
     ],
-    imgSrc: [test1, test2, test3],
+    imgSrc: [main, whole, win],
   };
 
   return (

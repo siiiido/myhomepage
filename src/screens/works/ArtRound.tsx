@@ -3,24 +3,30 @@ import { Info } from "../../type";
 import test1 from "../../img/test.jpg";
 import test2 from "../../img/test.jpg";
 import test3 from "../../img/test.jpg";
+import artround from "../../img/artround/artround.jpg";
+import map from "../../img/artround/artroundmap.jpg";
+import main from "../../img/artround/main.jpg";
 
 const ArtRound = () => {
   const info: Info = {
-    title: "테스트",
-    year: 2020,
-    info: ["Vanila Javascript, Django, Python"],
-    content:[
-      "물방아 공자는 그들은 철환하였는가? 이상의 피고 작고 무한한 위하여서, 아름답고 용기가 때에, 것이다.",
-      "보배를 앞이 예가 생의 옷을 천하를 사라지지 황금시대다. 역사를 생명을 원대하고, 열락의 못할 군영과 같지 인간이 약동하다. 것은 든 구할 구하지 얼음에 소금이라 것이다. 청춘을 이상이 방황하였으며, 두손을 교향악이다. 두기 끝까지 것은 광야에서 그들의 넣는 주며, 꽃이 무엇을 봄바람이다.",
+    title: "Artround",
+    year: 2021,
+    info: [
+      "현재 마무리 단계에서 개발중입니다.",
+      "React.JS, React-Redux, React-Router, Styled-Components, React-Swiper, Python, Django",
+    ],
+    content: [
+      "전시회, 박물관들을 지도 형식으로 띄워 사용자 주변의 가까운 전시회들을 한눈에 보여줍니다.",
     ],
     implements: [
       "카카오 소셜 로그인으로 회원가입, 로그인을 진행합니다.",
       "사용자 주변의 전시회, 박물관이 지도에 나타납니다. (GPS 동의 필요)",
       "전시회 혹은 박물관을 클릭하여 즐겨찾기에 등록, 공유 등이 가능합니다",
+      "전시회에 대해 후기를 등록할 수 있고 다른 사람의 후기를 볼 수 있습니다.",
     ],
-    imgSrc: [test1, test2, test3],
+    imgSrc: [main, artround, map],
   };
-  
+
   return (
     <WorksInfo
       title={info.title}
