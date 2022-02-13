@@ -14,6 +14,7 @@ import Section from "../components/Section";
 import worksTestImg from "../img/test.jpg";
 import thumnailNewSpring from "../img/newSpring/thumnail.jpg";
 import todo from "../img/simpleTodo/todo.jpg";
+import capstone from "../img/capstone/main.jpg";
 
 const Works = () => {
   const handleScroll = () => window.scrollTo(0, 0);
@@ -130,16 +131,16 @@ const Works = () => {
                 <NavLink to="/works/capstone">
                   <LinkBox cursor="pointer">
                     <Image
-                      src={worksTestImg}
+                      src={capstone}
                       alt="캡스톤디자인"
                       borderRadius="12px"
                     />
                     <LinkOverlay href="/works/capstone">
                       <Text mt={2} fontSize={20}>
-                        캡스톤디자인
+                        모션기반 PPT 제어
                       </Text>
                     </LinkOverlay>
-                    <Text fontSize={14}>설명, 소개</Text>
+                    <Text fontSize={14}>모션기반 PPT 제어라는 주제로 S/W경진대회를 나갔습니다.</Text>
                   </LinkBox>
                 </NavLink>
               </Box>

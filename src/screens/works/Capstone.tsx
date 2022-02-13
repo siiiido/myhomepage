@@ -1,25 +1,24 @@
 import WorksInfo from "../../components/WorksInfo";
 import { Info } from "../../type";
-import test1 from "../../img/test.jpg";
-import test2 from "../../img/test.jpg";
-import test3 from "../../img/test.jpg";
 
+import fun from "../../img/capstone/fun.jpg";
 
 const Capstone = () => {
   const info: Info = {
-    title: "테스트",
-    year: 2020,
-    info: ["Vanila Javascript, Django, Python"],
-    content:[
-      "물방아 공자는 그들은 철환하였는가? 이상의 피고 작고 무한한 위하여서, 아름답고 용기가 때에, 것이다.",
-      "보배를 앞이 예가 생의 옷을 천하를 사라지지 황금시대다. 역사를 생명을 원대하고, 열락의 못할 군영과 같지 인간이 약동하다. 것은 든 구할 구하지 얼음에 소금이라 것이다. 청춘을 이상이 방황하였으며, 두손을 교향악이다. 두기 끝까지 것은 광야에서 그들의 넣는 주며, 꽃이 무엇을 봄바람이다.",
+    title: "모션기반 PPT 제어",
+    year: 2021,
+    info: ["https://www.youtube.com/watch?v=T6w6k1_jkFg", "Python, MediaPipe"],
+    content: [
+      "키보드 없이 손 모양을 인식하여 PPT를 제어합니다.",
+      "부경대학교 S/W경진대회에서 대상을 받았습니다.",
     ],
     implements: [
-      "카카오 소셜 로그인으로 회원가입, 로그인을 진행합니다.",
-      "사용자 주변의 전시회, 박물관이 지도에 나타납니다. (GPS 동의 필요)",
-      "전시회 혹은 박물관을 클릭하여 즐겨찾기에 등록, 공유 등이 가능합니다",
+      "Mediapipe를 사용하여 모션의 좌표를 얻어 데이터 셋을 만들었습니다.",
+      "신경망 구조인 LSTM을 사용하여 데이터를 학습시켰습니다.",
+      "Win32 API를 사용하여 윈도우에서 PPT를 제어했습니다.",
+      "Python PYQT5를 사용하여 GUI를 만들었습니다.",
     ],
-    imgSrc: [test1, test2, test3],
+    imgSrc: [fun],
   };
 
   return (
