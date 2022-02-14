@@ -44,7 +44,7 @@ const Main = () => {
             textAlign="center"
             bg={useColorModeValue("#EDF2F7", "whiteAlpha.200")}
           >
-            한줄로 소개하기
+            책임감 있는 자유로움
           </Box>
 
           <Box mt={7} ml={3} textAlign="center">

@@ -17,6 +17,7 @@ import todo from "../img/simpleTodo/todo.jpg";
 import capstone from "../img/capstone/main.jpg";
 import artround from "../img/artround/main.jpg";
 import suyeong from "../img/suyeong/main.jpg";
+import porfolio from "../img/portfolio/main.jpg";
 
 const Works = () => {
   const handleScroll = () => window.scrollTo(0, 0);
@@ -80,7 +81,7 @@ const Works = () => {
                 <NavLink to="/works/portfolio">
                   <LinkBox cursor="pointer">
                     <Image
-                      src={worksTestImg}
+                      src={porfolio}
                       alt="포트폴리오"
                       borderRadius="12px"
                       style={{ minHeight: "17rem" }}
