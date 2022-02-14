@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/myhomepage/static/css/main.08f0a875.css",
-    "main.js": "/myhomepage/static/js/main.d90aaa26.js",
+    "main.js": "/myhomepage/static/js/main.9905ac7c.js",
     "static/media/profile.jpg": "/myhomepage/static/media/profile.5539765081e2cd16d13a.jpg",
-    "static/media/test.jpg": "/myhomepage/static/media/test.8fb4a49b44418330a90d.jpg",
     "static/media/main.jpg": "/myhomepage/static/media/main.25e3a3f7ffe58a0b38c7.jpg",
     "static/media/main.png": "/myhomepage/static/media/main.bc02abc5fcd1863c261e.png",
     "static/media/matching.png": "/myhomepage/static/media/matching.39c20d49913aaa6b4858.png",
     "static/media/suyeong.jpg": "/myhomepage/static/media/suyeong.96748b58d4474f36e621.jpg",
+    "static/media/info.jpg": "/myhomepage/static/media/info.d71a523e675e95dc85b6.jpg",
     "static/media/submit.png": "/myhomepage/static/media/submit.db877562123e79fb6107.png",
     "static/media/open-sans-all-700-normal.woff": "/myhomepage/static/media/open-sans-all-700-normal.3499b9716301bd3c513c.woff",
     "static/media/raleway-all-400-normal.woff": "/myhomepage/static/media/raleway-all-400-normal.8745d609142c140d7bdc.woff",
@@ -36,10 +36,10 @@
     "static/media/open-sans-greek-ext-700-normal.woff2": "/myhomepage/static/media/open-sans-greek-ext-700-normal.6ec764fe61947b88ec49.woff2",
     "index.html": "/myhomepage/index.html",
     "main.08f0a875.css.map": "/myhomepage/static/css/main.08f0a875.css.map",
-    "main.d90aaa26.js.map": "/myhomepage/static/js/main.d90aaa26.js.map"
+    "main.9905ac7c.js.map": "/myhomepage/static/js/main.9905ac7c.js.map"
   },
   "entrypoints": [
     "static/css/main.08f0a875.css",
-    "static/js/main.d90aaa26.js"
+    "static/js/main.9905ac7c.js"
   ]
 }
