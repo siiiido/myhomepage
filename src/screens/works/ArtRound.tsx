@@ -1,18 +1,19 @@
 import WorksInfo from "../../components/WorksInfo";
 import { Info } from "../../type";
-import test1 from "../../img/test.jpg";
-import test2 from "../../img/test.jpg";
-import test3 from "../../img/test.jpg";
 import artround from "../../img/artround/artround.jpg";
 import map from "../../img/artround/artroundmap.jpg";
 import main from "../../img/artround/main.jpg";
+import infoMain from "../../img/artround/info.png";
+import infoMap from "../../img/artround/infoMap.png";
+import infoPeople from "../../img/artround/infoPeople.png";
+import review from "../../img/artround/review.png";
 
 const ArtRound = () => {
   const info: Info = {
     title: "Artround",
     year: 2021,
     info: [
-      "현재 마무리 단계에서 개발중입니다.",
+      "https://github.com/ArtRound/ArtRound-front",
       "React.JS, React-Redux, React-Router, Styled-Components, React-Swiper, Python, Django",
     ],
     content: [
@@ -24,7 +25,7 @@ const ArtRound = () => {
       "전시회 혹은 박물관을 클릭하여 즐겨찾기에 등록, 공유 등이 가능합니다",
       "전시회에 대해 후기를 등록할 수 있고 다른 사람의 후기를 볼 수 있습니다.",
     ],
-    imgSrc: [main, artround, map],
+    imgSrc: [main, infoMain, infoPeople, artround, map, infoMap,review],
   };
 
   return (

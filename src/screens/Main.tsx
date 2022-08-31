@@ -15,7 +15,7 @@ import styled from "@emotion/styled";
 import Section from "../components/Section";
 import { IoLogoGithub } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
-import profileImg from "../img/profile.jpg";
+import profile from "../img/profile.jpg";
 import { FcAbout } from "react-icons/fc";
 import { FaHandPointRight } from "react-icons/fa";
 import {
@@ -27,7 +27,9 @@ import {
   SiRedux,
   SiGit,
   SiStyledcomponents,
-  SiInstagram,
+  SiVuedotjs,
+  SiVuetify
+  
 } from "react-icons/si";
 
 const Main = () => {
@@ -44,7 +46,7 @@ const Main = () => {
             textAlign="center"
             bg={useColorModeValue("#EDF2F7", "whiteAlpha.200")}
           >
-            책임감 있는 자유로움
+            Be like water
           </Box>
 
           <Box mt={7} ml={3} textAlign="center">
@@ -55,7 +57,7 @@ const Main = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src={profileImg}
+              src={profile}
               alt="Profile image"
             />
           </Box>
@@ -74,10 +76,17 @@ const Main = () => {
             </Box>
             <Box display="flex">
               <SkillEmoji>
-                <SiTypescript />
+                <SiVuedotjs />
               </SkillEmoji>{" "}
-              Typescript
+              Vue
             </Box>
+            <Box display="flex">
+              <SkillEmoji>
+                <SiVuetify />
+              </SkillEmoji>{" "}
+              Vuetify
+            </Box>
+
             <Box display="flex">
               <SkillEmoji>
                 <SiReact />
@@ -138,19 +147,19 @@ const Main = () => {
             </AboutEmoji>{" "}
             학력 : 부경대학교 IT융합응용공학과
           </AboutBox>
-          <AboutBox>
+          {/* <AboutBox>
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
             수상 : 부경대학교 S/W대회 금상(1위), 문화예술 스마트 해커톤
             특별상(2위)
-          </AboutBox>
+          </AboutBox> */}
 
           <AboutBox>
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
-            자격증 : 정보처리기사
+            자격증 : 정보처리기사, OPIc IH
           </AboutBox>
           <AboutBox>
             <AboutEmoji>
@@ -158,7 +167,7 @@ const Main = () => {
             </AboutEmoji>{" "}
             Language : Korean(Native), English(Intermediate)
           </AboutBox>
-          <AboutBox>
+          {/* <AboutBox>
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
@@ -169,7 +178,7 @@ const Main = () => {
                 <SiInstagram style={{ marginLeft: "0.5rem" }} />
               </a>
             </Box>
-          </AboutBox>
+          </AboutBox> */}
         </Section>
 
         <Section delay={0.3}>
