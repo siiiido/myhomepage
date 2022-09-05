@@ -30,7 +30,7 @@ export const Navbar = () => {
         justifyContent="space-between"
         alignContent="center"
         /* wrap="wrap" */
-        flexWrap="wrap" 
+        flexWrap="wrap"
         p={2}
       >
         <Stack
@@ -43,6 +43,9 @@ export const Navbar = () => {
         >
           <NavLink to="/">
             <Button variant="ghost">Homepage</Button>
+          </NavLink>
+          <NavLink to="/profile">
+            <Button variant="ghost">Profile</Button>
           </NavLink>
           <NavLink to="/works">
             <Button variant="ghost">Works</Button>
@@ -61,6 +64,9 @@ export const Navbar = () => {
               <MenuList>
                 <NavLink to="/">
                   <MenuItem>Homepage</MenuItem>
+                </NavLink>
+                <NavLink to="/profile">
+                  <MenuItem>Profile</MenuItem>
                 </NavLink>
                 <NavLink to="/works">
                   <MenuItem>Works</MenuItem>

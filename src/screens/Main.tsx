@@ -17,10 +17,8 @@ import { IoLogoGithub } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
 import profile from "../img/profile.jpg";
 import { FcAbout } from "react-icons/fc";
-import { FaHandPointRight } from "react-icons/fa";
 import {
   SiJavascript,
-  SiTypescript,
   SiReact,
   SiHtml5,
   SiCss3,
@@ -28,8 +26,7 @@ import {
   SiGit,
   SiStyledcomponents,
   SiVuedotjs,
-  SiVuetify
-  
+  SiVuetify,
 } from "react-icons/si";
 
 const Main = () => {
@@ -46,7 +43,7 @@ const Main = () => {
             textAlign="center"
             bg={useColorModeValue("#EDF2F7", "whiteAlpha.200")}
           >
-            Be like water
+            꾸준한 개발자 송상한입니다.
           </Box>
 
           <Box mt={7} ml={3} textAlign="center">
@@ -132,7 +129,7 @@ const Main = () => {
 
           <Box textAlign="center" my={7}>
             <NavLink to="/works">
-              <Button colorScheme="blue">My portfolio </Button>
+              <Button colorScheme="blue">Portfolio </Button>
             </NavLink>
           </Box>
         </Section>
@@ -145,40 +142,26 @@ const Main = () => {
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
-            학력 : 부경대학교 IT융합응용공학과
+            학력 : 부경대학교 IT융합응용공학과 졸업 (2022.08 졸업)
           </AboutBox>
-          {/* <AboutBox>
-            <AboutEmoji>
-              <FcAbout />
-            </AboutEmoji>{" "}
-            수상 : 부경대학교 S/W대회 금상(1위), 문화예술 스마트 해커톤
-            특별상(2위)
-          </AboutBox> */}
 
           <AboutBox>
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
-            자격증 : 정보처리기사, OPIc IH
+            자격증 : 정보처리기사 1급, OPIc IH
           </AboutBox>
           <AboutBox>
             <AboutEmoji>
               <FcAbout />
             </AboutEmoji>{" "}
-            Language : Korean(Native), English(Intermediate)
+            English : 독해 및 메일 작성 가능, 일상회화 가능
           </AboutBox>
-          {/* <AboutBox>
-            <AboutEmoji>
-              <FcAbout />
-            </AboutEmoji>{" "}
-            I 💙 Photography and Crossfit
-            <Box display="flex" pl={2} pt={0.3} fontSize="x-large">
-              <FaHandPointRight />{" "}
-              <a href="https://www.instagram.com/wehatecucumber/">
-                <SiInstagram style={{ marginLeft: "0.5rem" }} />
-              </a>
-            </Box>
-          </AboutBox> */}
+          <Box textAlign="center" my={7}>
+            <NavLink to="/profile">
+              <Button colorScheme="blue">More </Button>
+            </NavLink>
+          </Box>
         </Section>
 
         <Section delay={0.3}>
@@ -198,12 +181,9 @@ const Main = () => {
                 <Button
                   variant="ghost"
                   leftIcon={<Icon as={SiGmail} />}
-                  onClick={() =>
-                    (window.location.href = "mailto:discegaudere24.7@gmail.com")
-                  }
-                >
-                  discegaudere24.7@gmail.com
-                </Button>
+                  paddingRight="1"
+                ></Button>
+                discegaudere24.7@gmail.com
               </Link>
             </ListItem>
           </List>
@@ -228,7 +208,7 @@ const AboutEmoji = styled.span`
   margin-left: 1rem;
 `;
 
-const AboutBox = styled(Box)`
+export const AboutBox = styled(Box)`
   display: flex;
   margin-top: 0.3rem;
 `;

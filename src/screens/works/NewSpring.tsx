@@ -11,14 +11,13 @@ const NewSpring = () => {
     title: "새봄",
     year: 2021,
     info: [
-      "https://siiiido.github.io/RS-only-front/",
+      "https://github.com/PKNU-Spring/RS",
       "Vanila Javascript, Django, AWS, Python, Typescript",
     ],
     content: [
       "랜덤 선호도 질문을 통해 가장 취향과 가치관이 비슷한 사람끼리 매달 매칭을 진행하는 프로젝트 입니다.",
       "부산 전체 대학교에서 시행하여서 500명 이상의의 유저들을 직접 매칭했습니다.",
       "현재 AWS 만기로 사이트를 운영하지 않습니다.",
-      "Typescript로 UI만 리펙토링 했습니다.",
     ],
     implements: [
       "카카오 소셜 로그인으로 로그인을 진행합니다.",

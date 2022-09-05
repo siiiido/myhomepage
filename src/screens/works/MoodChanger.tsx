@@ -12,14 +12,14 @@ const MoodChanger = () => {
   const info: Info = {
     title: "MoodChanger",
     year: 2022,
-    info: ["https://github.com/MoodChanger/MoodChanger-front/tree/develop", "Vue.JS, Nuxt, Vuex, Vuetify, Python, Django"],
+    info: ["https://github.com/MoodChanger/MoodChanger-front/tree/main", "Vue.JS, Nuxt, Vuex, Vuetify, Python, Django"],
     content: ["동물사진과 일기장으로 마음이 차분해지는 웹사이트입니다."],
     implements: [
       "웹사이트 자체 회원가입, 로그인 기능이 있습니다.",
       "회원가입시 ID중복검사가 가능합니다.",
       "비밀번호 수정과 닉네임 수정이 가능합니다.",
       "이메일을 활용하여 비밀번호 찾기가 가능합니다.",
-      "JWT의 Access token과 Refresh token을 활용하여 로그인을 유지합니다.",
+      "JWT의 Access token과 Refresh token을 활용하여 유저를 인증하고 로그인을 유지합니다.",
       "Infinite Scroll을 활용하여 동물사진을 계속 볼 수 있습니다.",
       "좋아하는 동물 사진을 좋아요를 눌러 따로 볼 수 있습니다.",
       "CRUD기능을 활용하여 일기장을 생성, 조회, 수정, 삭제가 가능합니다."

@@ -7,6 +7,7 @@ import NewSpring from "./screens/works/NewSpring";
 import ArtRound from "./screens/works/ArtRound";
 import Portfolio from "./screens/works/Portfolio";
 import { Navbar } from "./screens/Navbar";
+import Profile from "./screens/Profile"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/works/artround" component={ArtRound} />
       <Route path="/works/portfolio" component={Portfolio} />
       <Route path="/works" component={Works} />
+      <Route path="/profile" component={Profile} />
     </BrowserRouter>
   );
 }

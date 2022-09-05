@@ -80,7 +80,8 @@ const WorksInfo = ({ ...children }) => {
                   style={{
                     height: "500px",
                     width: "100%",
-                    borderRadius: "20px",
+                    borderRadius:'20',
+                    objectFit:'scale-down',
                   }}
                 />
               </SwiperSlide>

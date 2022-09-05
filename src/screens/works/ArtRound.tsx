@@ -7,6 +7,9 @@ import infoMain from "../../img/artround/info.png";
 import infoMap from "../../img/artround/infoMap.png";
 import infoPeople from "../../img/artround/infoPeople.png";
 import review from "../../img/artround/review.png";
+import information from "../../img/artround/information.png";
+import mypage from "../../img/artround/mypage.png";
+import reviewList23 from "../../img/artround/reviewList23.png";
 
 const ArtRound = () => {
   const info: Info = {
@@ -25,7 +28,7 @@ const ArtRound = () => {
       "전시회 혹은 박물관을 클릭하여 즐겨찾기에 등록, 공유 등이 가능합니다",
       "전시회에 대해 후기를 등록할 수 있고 다른 사람의 후기를 볼 수 있습니다.",
     ],
-    imgSrc: [main, infoMain, infoPeople, artround, map, infoMap,review],
+    imgSrc: [main,information, mypage, artround,reviewList23, map, infoMap],
   };
 
   return (
