@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myhomepage/static/css/main.08f0a875.css",
-    "main.js": "/myhomepage/static/js/main.0ee40e34.js",
+    "main.js": "/myhomepage/static/js/main.2783e1e3.js",
     "static/media/save.png": "/myhomepage/static/media/save.1d2985a60d16ffc0dd06.png",
     "static/media/cat.png": "/myhomepage/static/media/cat.b9a4ec893ff4c4c8d5ba.png",
     "static/media/portfolioContent.png": "/myhomepage/static/media/portfolioContent.ff214f7af7b8a0d5d096.png",
@@ -14,15 +14,15 @@
     "static/media/create.png": "/myhomepage/static/media/create.8a7a9ee67a0459f52f3c.png",
     "static/media/main.jpg": "/myhomepage/static/media/main.b17cb23e6e2615c82096.jpg",
     "static/media/main.png": "/myhomepage/static/media/main.bc02abc5fcd1863c261e.png",
-    "static/media/infoPeople.png": "/myhomepage/static/media/infoPeople.1c853b4d826fac52817a.png",
     "static/media/infoMap.png": "/myhomepage/static/media/infoMap.8c93e8bb5ce29d808a13.png",
     "static/media/matching.png": "/myhomepage/static/media/matching.39c20d49913aaa6b4858.png",
-    "static/media/review.png": "/myhomepage/static/media/review.299b7e7d9e00da883171.png",
+    "static/media/reviewList23.png": "/myhomepage/static/media/reviewList23.72ff6bc57b01916fa5d3.png",
     "static/media/submit.png": "/myhomepage/static/media/submit.db877562123e79fb6107.png",
-    "static/media/info.png": "/myhomepage/static/media/info.fb5652def9488052dc8a.png",
+    "static/media/information.png": "/myhomepage/static/media/information.509868ad95f277fd9798.png",
     "static/media/open-sans-all-700-normal.woff": "/myhomepage/static/media/open-sans-all-700-normal.3499b9716301bd3c513c.woff",
     "static/media/raleway-all-400-normal.woff": "/myhomepage/static/media/raleway-all-400-normal.8745d609142c140d7bdc.woff",
     "static/media/user.png": "/myhomepage/static/media/user.ad88211502de36e7ebaa.png",
+    "static/media/mypage.png": "/myhomepage/static/media/mypage.70d1a7790b9abe668e6f.png",
     "static/media/artroundmap.jpg": "/myhomepage/static/media/artroundmap.c19bcdc85d4218640a63.jpg",
     "static/media/api.png": "/myhomepage/static/media/api.f004dca187a41dd4e7ad.png",
     "static/media/artround.jpg": "/myhomepage/static/media/artround.4945bea40f47a88c24b1.jpg",
@@ -42,10 +42,10 @@
     "static/media/open-sans-greek-ext-700-normal.woff2": "/myhomepage/static/media/open-sans-greek-ext-700-normal.6ec764fe61947b88ec49.woff2",
     "index.html": "/myhomepage/index.html",
     "main.08f0a875.css.map": "/myhomepage/static/css/main.08f0a875.css.map",
-    "main.0ee40e34.js.map": "/myhomepage/static/js/main.0ee40e34.js.map"
+    "main.2783e1e3.js.map": "/myhomepage/static/js/main.2783e1e3.js.map"
   },
   "entrypoints": [
     "static/css/main.08f0a875.css",
-    "static/js/main.0ee40e34.js"
+    "static/js/main.2783e1e3.js"
   ]
 }
